@@ -1,0 +1,9 @@
+Open an SSH client.
+
+Locate your private key file. The key used to launch this instance is Sumanth.pem
+
+Run this command, if necessary, to ensure your key is not publicly viewable.
+ chmod 400 "Sumanth.pem"
+
+Connect to your instance using its Public DNS:
+ ec2-54-165-164-76.compute-1.amazonaws.com
